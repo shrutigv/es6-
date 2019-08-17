@@ -1,0 +1,26 @@
+{
+  "name": "es5-to-esnext",
+  "version": "1.0.0",
+  "description": "Es6+",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrutigv/es5-to-esnext.git"
+  },
+  "author": "Shruti gv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shrutigv/es5-to-esnext/issues"
+  },
+  "homepage": "https://github.com/shrutigv/es5-to-esnext#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "babel-core": "^6.26.3",
+    "babelify": "^10.0.0"
+  },
+  "transform": [["babelify", { "comments": false }]]
+  
+}
